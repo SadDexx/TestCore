@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCORE", "NETCORE.csproj", "{13BE0458-736E-4B68-88FF-659B068DFF95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestNETCORE", "..\XUnitTestNETCORE\XUnitTestNETCORE.csproj", "{9B43F1D3-482C-4791-BD50-837F73DF8DF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13BE0458-736E-4B68-88FF-659B068DFF95} = {13BE0458-736E-4B68-88FF-659B068DFF95}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13BE0458-736E-4B68-88FF-659B068DFF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BE0458-736E-4B68-88FF-659B068DFF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BE0458-736E-4B68-88FF-659B068DFF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BE0458-736E-4B68-88FF-659B068DFF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B43F1D3-482C-4791-BD50-837F73DF8DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B43F1D3-482C-4791-BD50-837F73DF8DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B43F1D3-482C-4791-BD50-837F73DF8DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B43F1D3-482C-4791-BD50-837F73DF8DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BD0F97A-EDB8-4764-8FE8-6C668D0D3587}
+	EndGlobalSection
+EndGlobal
